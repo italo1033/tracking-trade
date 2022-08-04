@@ -20,6 +20,10 @@
     height: 100px;
     margin-left: 10px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .charts{
@@ -29,4 +33,26 @@
     margin-left: 10px;
     border-radius: 5px;
     margin-top: 10px;
+}
+.button_style{
+    border-radius: 5px;
+    background-color: #2b72e8;
+    color: #fff;
+    border: none;
+    width: max-content;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.label{
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.header_analise_percentual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
 }
