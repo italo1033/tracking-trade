@@ -1,0 +1,32 @@
+.item{
+    background-color: brown;
+    width:500px ;
+    height: 200px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.analise_percentual{
+    background-color: aqua;
+    width:500px ;
+    height: 680px;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.header_button{
+    background-color: green;
+    width: 98%;
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.charts{
+    background-color: green;
+    width: 48.5%;
+    height: 250px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
