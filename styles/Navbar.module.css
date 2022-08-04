@@ -1,0 +1,13 @@
+.input_search{
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+}
+.search{
+    margin-left: 8px;
+    background-color: #f3f3f8;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}

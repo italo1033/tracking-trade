@@ -1,7 +1,10 @@
+import style from "../styles/Home.module.css";
+import 'bootstrap/dist/css/bootstrap.css'
+import  Navbar from "../components/Navbar";
 export default function Home() {
   return(
     <div>
-    <h1> ola mundo</h1>
+      <Navbar />
     </div>
   );
 }
