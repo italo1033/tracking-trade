@@ -1,15 +1,17 @@
 import style from "../styles/Home.module.css";
 import 'bootstrap/dist/css/bootstrap.css'
 import  Navbar from "../components/Navbar";
+import  ChartPrice from "../components/ChartPrice";
+import  ChartPresence from "../components/ChartPresence";
+import  ChartTemperature from "../components/ChartTemperature";
 import { BiHelpCircle } from 'react-icons/bi';
 export default function Home() {
   return(
-    <div>
+    <div className={style.containerGeral}>
       <Navbar />
-      <div className="d-flex">
-        <section>
+      <div className="d-flex mt-2">
+        <section style={{width:'30%'}}>
           <div className={style.item}>
-
           </div>
           <div className={style.analise_percentual}>
             <main>
@@ -76,7 +78,7 @@ export default function Home() {
         </section>
 
         {/* segundo container */}
-        <section className="w-100">
+        <section style={{width:'70%', marginLeft:10}}>
           <header className={style.header_button}> 
             <div>
               <label className={style.label}>Period</label>
@@ -109,18 +111,18 @@ export default function Home() {
           <main>
             {/* charts  */}
             <section className="d-flex">
-              <div className={style.charts}></div>
-              <div className={style.charts}></div>
+              <div className={style.charts}><ChartPrice /></div>
+              <div className={style.charts}><ChartPrice /></div>
             </section>
             {/* charts  */}
             <section className="d-flex">
-              <div className={style.charts}></div>
-              <div className={style.charts}></div>
+              <div className={style.charts}><ChartTemperature /></div>
+              <div className={style.charts}><ChartTemperature /></div>
             </section>
             {/* charts  */}
             <section className="d-flex">
-              <div className={style.charts}></div>
-              <div className={style.charts}></div>
+              <div className={style.charts}><ChartPresence /></div>
+              <div className={style.charts}><ChartPresence /></div>
             </section>
           </main>
         </section>

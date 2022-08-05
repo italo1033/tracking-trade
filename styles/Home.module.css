@@ -1,13 +1,13 @@
 .item{
-    background-color: brown;
-    width:500px ;
+    background-color: #fff;
+    width:100% ;
     height: 200px;
     margin-left: 15px;
     border-radius: 5px;
 }
 .analise_percentual{
-    background-color: aqua;
-    width:500px ;
+    background-color: #fff;
+    width:100% ;
     height: 680px;
     margin-left: 15px;
     border-radius: 5px;
@@ -15,8 +15,8 @@
 }
 
 .header_button{
-    background-color: green;
-    width: 98%;
+    background-color: #fff;
+    width: 97.9%;
     height: 100px;
     margin-left: 10px;
     border-radius: 5px;
@@ -27,7 +27,7 @@
 }
 
 .charts{
-    background-color: green;
+    background-color: #fff;
     width: 48.5%;
     height: 250px;
     margin-left: 10px;
@@ -45,7 +45,7 @@
     padding-right: 25px;
 }
 .label{
-    color: #fff;
+    color: #000;
     margin-bottom: 4px;
 }
 
@@ -55,4 +55,8 @@
     justify-content: space-between;
     padding: 10px;
     align-items: center;
+}
+
+.containerGeral{
+    background-color: #f3f3f8;
 }
