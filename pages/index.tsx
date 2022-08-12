@@ -12,6 +12,9 @@ export default function Home() {
       <div className="d-flex mt-2">
         <section style={{width:'30%'}}>
           <div className={style.item}>
+            <div className={style.item_superio}>
+              
+            </div>
           </div>
           <div className={style.analise_percentual}>
             <main>
